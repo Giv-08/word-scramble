@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Scramble</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="main"></div>
+    <div class="star-field">
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+    </div>
+    <div class="container">
+      <h2>Word scramble</h2>
+      <div class="content">
+        <p class="word"></p>
+        <div class="details">
+          <p class="speech">Part of Speech : <span></span></p>
+          <p class="hint">Hint : <span></span></p>
+          <p class="time">
+            Time left: <span><b>30</b>s</span>
+          </p>
+        </div>
+        <input type="text" placeholder=" Enter a valid word" />
+        <div class="buttons">
+          <button class="refresh-word">Refresh Word</button>
+          <button class="check-word">Check Word</button>
+        </div>
+      </div>
+    </div>
+
+    <span class="author">Created by Giv-08</span>
+  </body>
+  <script src="js/words.js" defer></script>
+  <script src="js/script.js" defer></script>
+</html>
