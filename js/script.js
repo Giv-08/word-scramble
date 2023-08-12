@@ -45,6 +45,7 @@ const checkWord = () => {
     return alert("Oops! " + userWord + " is not correct!"); //if the word doesn't match the correct word
 
   alert("Well done! " + userWord + " is correct!"); //if the word entered matches the correct word
+  initGame(); //reload the game
 };
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
